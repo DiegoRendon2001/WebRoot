@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #6495ED;
+    padding: 2rem;
+    color: #5C4033;
+}
+
+
+.quote-wrapper {
+    background-color: #50C878;
+    border-radius: 20px;
+    padding: 4rem 1.5rem;
+    -webkit-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 1);
+}
+
+.quote-wrapper h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.quote-wrapper small {
+    font-weight: 700;
+    padding: 0.2rem 1rem;
+    color: black;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.quote-wrapper blockquote {
+    padding: 1.4rem 0;
+    font-weight: 300;
+}
+
+.quote-wrapper cite {
+    display: block;
+    font-size: normal;
+    margin-bottom: 1rem;
+}
+
+#quote-tags {
+    color: #5C4033;
+}
+
+#gen-quote-btn {
+    font-size: 1.1rem;
+    border: none;
+    background-color: #6495ED;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+#newquotebttn {
+    font-size: 1.1rem;
+    border: none;
+    background-color: #6495ED;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+#newquotebttn:hover {
+    --webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.67);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.67); 
+}
+
+#gen-quote-btn:hover {
+    --webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.67);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.67);
+}
+
+@media screen and (min-width: 680px) {
+    .quote-wrapper{
+        width: 600px;
+    }
+}
