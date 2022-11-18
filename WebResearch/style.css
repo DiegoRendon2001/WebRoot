@@ -1,0 +1,33 @@
+
+p {
+    color: yellowgreen;
+    font-size: 20px;
+}
+header {
+    color: green;
+    font-size: 50px;
+}
+h1 {
+    color: green;
+}
+a {
+    color: green;
+}
+.BasicHTML{
+    background-color:  rgb(24, 25, 26);
+}
+.BasicCSS{
+    background-color:  rgb(24, 25, 26);
+}
+.BasicWebDev{
+    background-color:  rgb(24, 25, 26);
+}
+.BasicHosting{
+    background-color:  rgb(24, 25, 26);
+}
+.BasicApp{
+    background-color:  rgb(24, 25, 26);
+}
+body {
+    background-image: url('htmlPic.jpeg');
+  }
