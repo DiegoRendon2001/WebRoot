@@ -75,37 +75,37 @@ body{
     background: var(--minty-green);
     width:30%;
     height: 580px;
-    font-size: 25px;
+    font-size: 22px;
     color: var(--brown);
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    padding-right: 10px;
 }
 #centerbox{
     float:left; 
     background:var(--minty-green);
     width:40%;
     height: 580px;
-    font-size: 25px;
+    font-size: 22px;
     color: var(--brown);
+    
 }
 #rightbox{
     float:right;
     background:var(--minty-green);
     width:30%;
     height: 580px;
-    font-size: 25px;
+    font-size: 22px;
     color: var(--brown);
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-
+    padding-left: 10px;
 }
 h1{
     color: var(--brown);
     text-align:center;
     font-size: 40px;
     padding-bottom: 20px;
-    text-decoration: underline;     
-    text-decoration-color: var(--brown);  
 }
 
 #picsbttn {
